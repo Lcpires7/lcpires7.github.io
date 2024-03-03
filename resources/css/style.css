@@ -5,7 +5,7 @@
     font-family: "Roboto", sans-serif !important;
 }
 
-body { 
+section { 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,7 +14,9 @@ body {
     flex-direction: column;
 }
 
-body > div {
+
+
+body section > div {
     margin: 0 .8rem;
     min-width: 300px;
     max-width: 500px;
