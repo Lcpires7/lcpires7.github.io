@@ -11,6 +11,7 @@ body {
     align-items: center;
     height: 100vh;
     background-color: #7f91a2;
+    flex-direction: column;
 }
 
 body > div {
