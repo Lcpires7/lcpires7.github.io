@@ -33,3 +33,19 @@ section p {
     font-family: 'Times New Roman', Times, serif !important;
     margin-bottom: .5rem;
 }
+
+
+@media screen and (min-width: 769px) {
+    section {
+        width: 60%;
+        padding-left: 6rem !important;
+        padding-right: 6rem !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    a.card {
+        width: 60%;
+        margin: auto;
+    }
+}

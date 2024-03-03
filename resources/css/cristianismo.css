@@ -29,7 +29,11 @@ section {
     padding-left: 1rem !important;
     padding-right: 1rem !important;
     background-color: #7f91a2;
-    min-height: 100vh;
+    min-height: 100vh !important;
+}
+
+section aside {
+    margin: auto;
 }
 
 strong {
@@ -74,4 +78,18 @@ div.detalhes h2 {
 div.detalhes p{
     font-size: 1.1rem;
     margin: .5rem 0;
+}
+
+/* Media Query */
+
+@media screen and (min-width: 769px) {
+    section {
+        padding-left: 6rem !important;
+        padding-right: 6rem !important;
+    }
+
+    a.card {
+        width: 60%;
+        margin: auto;
+    }
 }
