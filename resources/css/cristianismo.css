@@ -83,10 +83,10 @@ div.detalhes p{
 /* Media Query */
 
 @media screen and (min-width: 769px) {
-    section {
+    /* section {
         padding-left: 6rem !important;
         padding-right: 6rem !important;
-    }
+    } */
 
     a.card {
         width: 60%;
