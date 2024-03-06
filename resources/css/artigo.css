@@ -31,7 +31,8 @@ section p:first-of-type {
 section p {
     font-size: 1.3rem;
     font-family: 'Times New Roman', Times, serif !important;
-    margin-bottom: .5rem;
+    margin-bottom: 1rem;
+    line-height: 22px;
 }
 
 
